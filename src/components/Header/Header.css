@@ -1,0 +1,49 @@
+.header{
+    width: 100%;
+    height:80px;
+    line-height:80px;
+}
+
+.logo img{
+    width: 20%;
+}
+
+.menu{
+    margin-bottom: 0;
+}
+
+.nav__item a{
+    text-decoration: none;
+    color: var(--heading-color);
+    font-size: 1.1 rem;
+    font-weight: 500;
+}
+
+.nav__item a:hover{
+    color: rgb(151, 41, 14);
+    background-color: rgb(209, 164, 82);
+    border-radius: 5px;
+}
+
+.nav__item a.active__link{
+    color:var(--scondary-color);
+}
+
+.mobile__menu{
+    font-size: 1.3rem;
+    color:var(--heading-color);
+    display: none;
+}
+
+.sticky__header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background: #fff;
+    position: sticky;
+    top:0;
+    left: 0;
+    box-shadow: 3px 3px 8px -3px #ddd;
+    z-index:999;
+
+}
