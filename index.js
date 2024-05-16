@@ -30,7 +30,7 @@ const connect = async () => {
             // autoIndex: false, // To turn off automatic index creation in production environment
         });
 
-        console.log('MongoDB database connected');
+        console.log('MongoDB database connected');//connecte to database
     } catch (err) {
         console.error('MongoDB database connection failed:', err.message);
     }
